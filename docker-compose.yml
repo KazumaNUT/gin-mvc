@@ -16,7 +16,8 @@ services:
 
   db:
     container_name: db
-    image: mysql:5.7
+    build:
+      context: ./mysql
     hostname: mysql
     ports:
       - "3306:3306"

@@ -6,4 +6,5 @@ COPY . .
 
 RUN go get -u github.com/cosmtrek/air
 
-CMD ["air", "-c", ".air.toml"]
+CMD ["go", "run", "main.go"]
+# CMD ["air", "-c", ".air.toml"]
