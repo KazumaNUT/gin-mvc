@@ -2,8 +2,9 @@ package controller
 
 import (
 	"fmt"
-	"gin-mvc/model"
 	"strconv"
+
+	"github.com/gin-mvc/model"
 
 	"github.com/gin-gonic/gin"
 )

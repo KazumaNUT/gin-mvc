@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gin-mvc/controller"
+	"github.com/gin-mvc/controller"
 )
 
 func main() {
